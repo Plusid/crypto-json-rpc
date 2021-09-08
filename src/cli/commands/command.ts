@@ -8,7 +8,7 @@ export abstract class BaseCommand extends Command {
 	public static flagsNetwork: Record<string, object> = {
 		token: flags.string({
 			description: "the name of the token that should be used",
-			default: "ark",
+			default: "infinity",
 		}),
 		host: flags.string({
 			description: "the host of the JSON-RPC",
